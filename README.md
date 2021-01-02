@@ -2,4 +2,4 @@
 
 ![alt text](https://github.com/engantung/GODOT/blob/main/ThirdPersonController/godottpc.png?raw=true)
 
-![alt text](https://github.com/engantung/GODOT/blob/main/ThirdPersonController/godottpc.png?raw=true)
+![alt text](https://github.com/engantung/GODOT/blob/main/ThirdPerson_with_Joystick/godottpcwithj.png?raw=true)
