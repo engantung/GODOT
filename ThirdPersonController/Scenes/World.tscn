@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.737255, 0.235294, 0.235294, 1 )
+
+[node name="World" type="Spatial"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+min_pitch = -50.0
+max_pitch = 50.0
+
+[node name="CSGBox" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.93432, 0 )
+use_collision = true
+width = 64.9538
+depth = 51.8268
+material = SubResource( 1 )
+
+[node name="CSGBox2" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01124, 0.694056, 0.342218 )
+use_collision = true
+width = 10.3395
+height = 0.888535
+depth = 12.4183
+material = SubResource( 1 )
+
+[node name="CSGBox3" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.17694, 3.43562, 11.8378 )
+use_collision = true
+width = 10.3395
+height = 0.888535
+depth = 12.4183
+material = SubResource( 1 )
+
+[node name="CSGBox4" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.681037, 6.73184, 20.3096 )
+use_collision = true
+width = 10.3395
+height = 0.888535
+depth = 12.4183
+material = SubResource( 1 )
